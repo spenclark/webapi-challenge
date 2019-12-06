@@ -9,7 +9,7 @@ const projectsRouter = require("./projectsRouter.js");
 
 server.use(helmet())
 server.use(express.json())
-// server.use("/api/project", projectsRouter)
+server.use("/api/project", projectsRouter)
 server.use('/api/action', actionsRouter)
 
 server.get('/', (req, res) => {

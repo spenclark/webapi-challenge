@@ -78,3 +78,5 @@ function mdl(req, res, next) {
             res.status(500).json({error: 'Access Denied'})
         })
 }
+
+module.exports = server
