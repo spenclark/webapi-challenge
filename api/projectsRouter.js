@@ -43,7 +43,7 @@ server.post('/', (req,res) => {
     const body = req.body;
     db.insert(body)
         .then(project => {
-            res.status(200).json(project)
+            res.status(201).json(project)
         })
         .catch(error => {
             res.status(500).json({ error: 'Failed POST /'})

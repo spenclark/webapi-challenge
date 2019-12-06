@@ -40,10 +40,11 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 1. express makes it easy to use middleware when responding to HTTP requests
-2. it adminsters routing
+2. it adminsters routing to perform specific actions depending on the HTTP method
 - [ ] Describe Middleware?
-We use middleware to moderatate 
+We use middleware to moderatate interactions between our client and server. 
 - [ ] Describe a Resource?
+    Material used to build an API (ex: a database)
 
 - [ ] What can the API return to help clients know if a request was successful?
 
