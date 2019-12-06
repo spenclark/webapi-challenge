@@ -47,9 +47,12 @@ We use middleware to moderatate interactions between our client and server.
     Material used to build an API (ex: a database)
 
 - [ ] What can the API return to help clients know if a request was successful?
+    res.status(200) if something was successful or res.status(201)
+
+    These are status codes that represent an outcome on our requests/responses 
 
 - [ ] How can we partition our application into sub-applications?
-
+    We can use routing to partition our app in to seperate routers and sub applications 
 ## Minimum Viable Product
 
 - [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
